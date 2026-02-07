@@ -1,6 +1,98 @@
-.bg-color {
-  background-color: #2d2d2d;
+:root {
+  --bg: #000000;
+  --text: #00ff00;
+  --text-dim: #00cc00;
 }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+.terminal {
+  padding: 48px;
+  line-height: 1.65;
+}
+
+.hint {
+  color: var(--text-dim);
+  margin-bottom: 24px;
+}
+
+.line {
+  margin-top: 16px;
+}
+
+.prompt {
+  margin-right: 8px;
+}
+
+.command {
+  color: var(--text);
+}
+
+.output {
+  margin-left: 24px;
+  margin-top: 4px;
+}
+
+.pg {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.bar {
+  width: 100%;
+  height: 1em;
+  border: 1px solid var(--text);
+  margin-left: 10px;
+  position: relative;
+}
+
+.fill {
+  display: block;
+  height: 100%;
+  background: var(--text);
+}
+
+.percentage {
+  margin-left: 10px;
+}
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 1em;
+  background: var(--text);
+  animation: blinks 1s steps(1) infinite;
+  vertical-align: bottom;
+}
+
+@keyframes blinks {
+  50% {
+    opacity: 0%;
+  }
+}
+
+@keyframes loading {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: var(--level);
+  }
+}
+
 
 h1,
 h2,
