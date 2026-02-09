@@ -25,337 +25,432 @@
 
         <div class="terminal">
 
-            <div class="hint">
-                # Type 'brew help' to explore
-            </div>
+            <section id="help">
+                <div class="hint">
+                    # Click listed brew command to explore the individuals
+                </div>
 
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew help</span>
-            </div>
-            <div class="output">
-                Available command: <br />
-                brew info about<br />
-                brew links<br />
-                brew list experiences<br />
-                brew install tools<br />
-                brew list projects<br />
-                brew info credentials<br />
-                brew info educations<br />
-                brew doctor<br />
-            </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew help</span>
+                </div>
+                <div class="output">
+                    Available command: <br />
+                    <a href="#about">brew info about</a><br />
+                    <a href="#links">brew links</a><br />
+                    <a href="#experiences">brew list experiences</a><br />
+                    <a href="#tools">brew install tools</a><br />
+                    <a href="#projects">brew list projects</a><br />
+                    <a href="#credentials">brew info credentials</a><br />
+                    <a href="#educations">brew info educations</a><br />
+                    <a href="#doctor">brew doctor</a><br />
+                </div>
+            </section>
 
             <!-- Info -->
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew info about</span>
-            </div>
-            <div class="output">
-                Name: Harsh Gupta<br />
-                Location: Bangalore, KARNATAKA<br />
-                About:
-            </div>
+            <section id="about">
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew info about</span>
+                </div>
+                <div class="output">
+                    Name: Harsh Gupta<br />
+                    Location: Bangalore, KARNATAKA<br />
+                    About: In my free time I’m a Learner learning new technology stacks, and a Maker be it some
+                    Mobile/web apps,
+                    and few other small project.
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command"><a href="#help">brew help</a></span>
+                </div>
+            </section>
 
             <!-- Links -->
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew links</span>
-            </div>
-            <div class="output">
-                github <a href="#">https://github.com/harshgupta97</a><br />
-                pages.github.com <a href="#">https://harshgupta97.github.io</a><br />
-                linkedin <a href="#">https://linkedin.com</a><br />
-                medium <a href="#">https://medium.com</a><br />
-                resume.pdf <a href="./assets/files/Harsh Gupta Resume 2020.pdf" target="_blank"
-                    rel="noopener noreferrer">harsh_gupta_resume_2026.pdf</a>
-            </div>
+            <section id="links">
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew links</span>
+                </div>
+                <div class="output">
+                    github <a href="#">https://github.com/harshgupta97</a><br />
+                    pages.github.com <a href="#">https://harshgupta97.github.io</a><br />
+                    linkedin <a href="#">https://linkedin.com</a><br />
+                    medium <a href="#">https://medium.com</a><br />
+                    resume.pdf <a href="./assets/files/Harsh Gupta Resume 2020.pdf" target="_blank"
+                        rel="noopener noreferrer">harsh_gupta_resume_2026.pdf</a>
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command"><a href="#help">brew help</a></span>
+                </div>
+            </section>
 
             <!-- Experiences -->
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew list experiences</span>
-            </div>
-            <div class="output">
-                juntrax.txt<br />
-                tyremarket.txt
-            </div>
+            <section id="experiences">
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew list experiences</span>
+                </div>
+                <div class="output">
+                    ---------- &nbsp; 1 &nbsp; harshgupta &nbsp; staff &nbsp;&nbsp; 345 &nbsp;
+                    juntrax.txt<br />
+                    ---------- &nbsp; 1 &nbsp; harshgupta &nbsp; staff &nbsp;&nbsp; 123 &nbsp;
+                    tyremarket.txt
+                </div>
 
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew cat juntrax.txt </span>
-            </div>
-            <div class="output">
-                class juntrax.com &lt; Formula<br />
-                &nbsp;&nbsp;desc "Software Engineer (Nov 2020 - Present)"<br /><br />
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew cat juntrax.txt </span>
+                </div>
+                <div class="output">
+                    <div class="manual-heading">
+                        <span>BUILTIN(1)</span>
+                        <span>General Experience Manual</span>
+                        <span>BUILTIN(1)</span>
+                    </div>
+                    COMPANY NAME<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Juntrax Solution Pvt. Ltd.<br /><br />
+                    Role<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Software Engineer<br /><br />
+                    Year<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Nov 2020 - Present<br /><br />
+                    Responsibilities:<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- Build UI Component<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- DevOps <br /><br />
 
-                &nbsp;&nbsp;Responsibilities:<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- Build UI Component<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- DevOps <br /><br />
+                    Tools:<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- React<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- mongoDB <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- Node.js <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- typescript <br />
+                </div>
 
-                &nbsp;&nbsp;Tools:<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- React<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- mongoDB <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- Node.js <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- typescript <br />
-            </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew cat tyremarket.txt </span>
+                </div>
+                <div class="output">
+                    <div class="manual-heading">
+                        <span>BUILTIN(1)</span>
+                        <span>General Experience Manual</span>
+                        <span>BUILTIN(1)</span>
+                    </div>
+                    COMPANY NAME<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;TypeMarket.com<br /><br />
+                    Role<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Jr. Front-End Developer<br /><br />
+                    Year<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;AUG 2019 - FEB 2020<br /><br />
+                    Responsibilities:<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- Build UI Component<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- DevOps <br /><br />
 
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew cat tyremarket.txt </span>
-            </div>
-            <div class="output">
-                class tyremarket.com &lt; Formula<br />
-                &nbsp;&nbsp;desc "Jr. Front-End Developer (AUG 2019 - FEB 2020)"<br /><br />
-
-                &nbsp;&nbsp;Responsibilities:<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- Build UI Component<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- DevOps <br /><br />
-
-                &nbsp;&nbsp;Tools:<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- React<br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- mongoDB <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- Node.js <br />
-                &nbsp;&nbsp;&nbsp;&nbsp;- typescript <br />
-            </div>
+                    Tools:<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- React<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- mongoDB <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- Node.js <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- typescript <br />
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command"><a href="#help">brew help</a></span>
+                </div>
+            </section>
 
             <!-- Tools -->
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew install tools</span>
-            </div>
-            <div class="output">
-                ==> Installing tools<br /><br />
-
-                <i class="devicon-git-plain"></i> git
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
-                    </div>
-                    <span class="percentage">90%</span>
+            <section id="tools">
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew install tools</span>
                 </div>
-                <br />
+                <div class="output">
+                    ==> Installing tools<br /><br />
 
-                <i class="devicon-postman-plain"></i> postman
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-git-plain"></i> git
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-vscode-plain"></i> vscode
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-postman-plain"></i> postman
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-javascript-plain"></i> js
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-vscode-plain"></i> vscode
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-typescript-plain"></i> ts
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-javascript-plain"></i> js
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-nodejs-plain-wordmark"></i> nodejs
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-typescript-plain"></i> ts
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-amazonwebservices-plain-wordmark"></i> aws (EC2, ECR, EKS, S3)
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-nodejs-plain-wordmark"></i> nodejs
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-firebase-plain"></i> firebase
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-amazonwebservices-plain-wordmark"></i> aws (EC2, ECR, EKS, S3)
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-react-original"></i> react
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-firebase-plain"></i> firebase
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-react-original"></i> react-native
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-react-original"></i> react
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-mongodb-plain"></i> mongodb
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-react-original"></i> react-native
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-docker-plain"></i> Docker
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-mongodb-plain"></i> mongodb
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
-                </div>
-                <br />
+                    <br />
 
-                <i class="devicon-kubernetes-plain"></i> k8
-                <div class="pg">
-                    <span class="label">progress</span>
-                    <div class="bar">
-                        <span class="fill" style="width: 90%"></span>
+                    <i class="devicon-docker-plain"></i> Docker
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
                     </div>
-                    <span class="percentage">90%</span>
+                    <br />
+
+                    <i class="devicon-kubernetes-plain"></i> k8
+                    <div class="pg">
+                        <span class="label">progress</span>
+                        <div class="bar">
+                            <span class="fill" style="width: 90%"></span>
+                        </div>
+                        <span class="percentage">90%</span>
+                    </div>
+                    <br />
                 </div>
-                <br />
-            </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command"><a href="#help">brew help</a></span>
+                </div>
+            </section>
 
             <!-- Projects -->
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew list projects</span>
-            </div>
-            <div class="output">
-
-            </div>
+            <section id="projects">
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew list projects</span>
+                </div>
+                <div class="output">
+                    ---------- &nbsp; 1 &nbsp; harshgupta &nbsp; staff &nbsp;&nbsp; 345 &nbsp;
+                    p_2_p_electronic_cash_system.txt<br />
+                    ---------- &nbsp; 1 &nbsp; harshgupta &nbsp; staff &nbsp;&nbsp; 123 &nbsp;
+                    computational_linguistic_literature.txt
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew cat p_2_p_electronic_cash_system.txt </span>
+                </div>
+                <div class="output">
+                    <div class="manual-heading">
+                        <span>BUILTIN(1)</span>
+                        <span>General Project Manual</span>
+                        <span>BUILTIN(1)</span>
+                    </div>
+                    PROJECT NAME<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Peer-To-Peer Electronic Cash System<br /><br />
+                    LANGUAGE<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Python<br /><br />
+                    Year<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;2018 - 2019<br /><br />
+                    ABOUT:<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- Purpose of solving the Double-Spending problem<br />
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew cat computational_linguistic_literature.txt </span>
+                </div>
+                <div class="output">
+                    <div class="manual-heading">
+                        <span>BUILTIN(1)</span>
+                        <span>General Project Manual</span>
+                        <span>BUILTIN(1)</span>
+                    </div>
+                    PROJECT NAME<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Computational Lingusitic Literature<br /><br />
+                    Language<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;JavaScript<br /><br />
+                    Year<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;2017<br /><br />
+                    ABOUT:<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- Project uses RITA software toolkit for computational literature<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;- Used in sentence analysis, chatroom filter <br />
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command"><a href="#help">brew help</a></span>
+                </div>
+            </section>
 
             <!-- Credentials -->
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew list credentials</span>
-            </div>
-            <div class="output">
+            <section id="credentials">
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew list credentials</span>
+                </div>
+                <div class="output">
 
-            </div>
+                </div>
+            </section>
 
             <!-- Educations -->
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew list educations</span>
-            </div>
-            <div class="output">
-
-            </div>
+            <section id="educations">
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew list educations</span>
+                </div>
+                <div class="output">
+                    ---------- &nbsp; 1 &nbsp; harshgupta &nbsp; staff &nbsp;&nbsp; 345 &nbsp;
+                    collage.txt<br />
+                    ---------- &nbsp; 1 &nbsp; harshgupta &nbsp; staff &nbsp;&nbsp; 123 &nbsp;
+                    school.txt
+                    <!-- ---------- &nbsp; 1 &nbsp; harshgupta &nbsp; B.E. CSE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2015 - 2020
+                    &nbsp; SRI SIDDHARTHA
+                    INSTITUTE OF TECHNOLOGY, KARNATAKA<br />
+                    ---------- &nbsp; 1 &nbsp; harshgupta &nbsp; INTERMEDIATE &nbsp; 2014 - 2015 &nbsp; ST. XAVIERS
+                    PUBLIC SCHOOL,
+                    CHHATTISGARH -->
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew cat collage.txt </span>
+                </div>
+                <div class="output">
+                    <div class="manual-heading">
+                        <span>BUILTIN(1)</span>
+                        <span>General Education Manual</span>
+                        <span>BUILTIN(1)</span>
+                    </div>
+                    INSTITUTE NAME<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Sri Siddhartha Institute of Technology<br /><br />
+                    DEGREE<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Bachelor of Engineering in Computer Science<br /><br />
+                    Year<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;2015 - 2020<br />
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew cat school.txt </span>
+                </div>
+                <div class="output">
+                    <div class="manual-heading">
+                        <span>BUILTIN(1)</span>
+                        <span>General Education Manual</span>
+                        <span>BUILTIN(1)</span>
+                    </div>
+                    INSTITUTE NAME<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;St. Xavier Public School<br /><br />
+                    DEGREE<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;Intermediate<br /><br />
+                    Year<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;2014 - 2015<br />
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command"><a href="#help">brew help</a></span>
+                </div>
+            </section>
 
             <!-- Doctor -->
-            <div class="line">
-                <span class="prompt">harshgupta@macbook ~ %</span>
-                <span class="command">brew doctor</span>
-            </div>
-            <div class="output">
-                Your system is ready to work.<br />
-                ✅ Clean code<br />
-                ✅ Strong fundamentals<br />
-                ✅ Terminal-friendly human
-            </div>
+            <section id="doctor">
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command">brew doctor</span>
+                </div>
+                <div class="output">
+                    Your system is ready to work.<br />
+                    ✅ Clean code<br />
+                    ✅ Strong fundamentals<br />
+                    ✅ Terminal-friendly human
+                </div>
+                <div class="line">
+                    <span class="prompt">harshgupta@macbook ~ %</span>
+                    <span class="command"><a href="#help">brew help</a></span>
+                </div>
+            </section>
 
         </div>
-
-
-        <h3 class="text-warning my-5"><span class="text-primary h4 mx-2"><i class="fas fa-info"> </i> </span> <strong>
-                ABOUT</strong></h3>
-        <div class="row">
-            <div class="col-md ml-4">
-                <p>In my free time I’m a Learner learning new technology stacks, and a Maker be it some Mobile/web apps,
-                    and few other small project.</p>
-            </div>
-        </div>
-
-        <!-- EDUCATION -->
-        <h3 class="text-warning my-5"><span class="text-primary h4"><i class="fas fa-graduation-cap"> </i> </span>
-            <strong>EDUCATIONS</strong>
-        </h3>
-        <div class="row my-5">
-            <div class="col-md ml-4">
-                <p><strong>SIR SIDDHARTHA INSTITUTE OF TECHNOLOGY, KARNATAKA</strong> - <i>B.E. Computer Science</i></p>
-                <p><small>2015 - 2020</small></p>
-            </div>
-
-        </div>
-        <div class="row my-5">
-            <div class="col-md ml-4">
-                <p><strong>ST. XAVIERS PUBLIC SCHOOL, CHHATTISGARH</strong> - <i>HIGHER SECONDARY</i></p>
-                <p><small>2014 -2015</small></p>
-            </div>
-        </div>
-        <!-- EDUCATION ENDS -->
-
-        <!-- PROJECTS -->
-        <h3 class="text-warning my-5"><span class="text-primary h4"><i class="fas fa-coffee"> </i> </span>
-            <strong>PROJECTS</strong>
-        </h3>
-        <h5></h5>
-        <div class="row my-5">
-            <div class="col-md ml-4">
-                <p><strong>A PEER-TO-PEER ELECTRONIC CASH SYSTEM</strong>
-                <p><small>2018 - 2019</small></p>
-                <li>Language python</li>
-                <li>Purpose of solving the Double-Spending problem</li>
-            </div>
-        </div>
-
-        <div class="row my-5">
-            <div class="col-md ml-4">
-                <p><strong>Computational linguistic and literature.</strong></p>
-                <p><small>2017</small></p>
-                <li>Project uses RITA software toolkit for computational literature</li>
-                <li>Language javascript</li>
-                <li>Used in sentence analysis, chatroom filter</li>
-            </div>
-        </div>
-        <!-- RECENT PROJECTS ENDS -->
-
-
 
         <!-- CERTS & LICENSE -->
-        <h3 class="text-warning my-5"><span class="text-primary h4"><i class="fas fa-trophy"> </i> </span>
+        <!-- <h3 class="text-warning my-5"><span class="text-primary h4"><i class="fas fa-trophy"> </i> </span>
             <strong>CERTS & LICENSES</strong>
         </h3>
         <a href="./assets/files/Ultimate Java - Certificate of Completion All.pdf" target="_blank"
@@ -366,7 +461,7 @@
             rel="noopener noreferrer">
             <i class="fas fa-file-pdf"> </i> AWS Training & Certification - AWS Cloud Practitioner Essentials (Second
             Edition).pdf
-        </a>
+        </a> -->
         <!-- CERTS & LICENSE ENDS -->
 
         <!-- Body Ends -->
